@@ -1,0 +1,12 @@
+.cir-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.cir-img img{
+    width: 80px;
+    height: 75px;
+}
+
