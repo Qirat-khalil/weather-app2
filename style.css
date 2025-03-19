@@ -1,12 +1,36 @@
+.main{
+    background-color: rgb(231, 179, 145);
+   
+}
+
 .cir-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(26, 184, 131);
+    border-radius:50%;
 }
 
 
 .cir-img img{
-    width: 80px;
-    height: 75px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: brown;
+  
+}
+.cir-img2{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(26, 184, 131);
+   
+}
+.cir-img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: brown;
+  
 }
 
