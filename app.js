@@ -4,7 +4,7 @@ let usercity = prompt("Enter Your City Name !")
 
 if (usercity.toLocaleLowerCase() === "karachi") {
 
-  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3">
+  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3  animate__animated animate__flipInY">
    
     <div class="rounded mt-3 " style="background-color: rgb(41, 40, 38);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(88, 32, 192);">
       
@@ -18,7 +18,7 @@ if (usercity.toLocaleLowerCase() === "karachi") {
         <div class="mt-3 rounded  d-flex justify-content-center align-items-center" style="height: 80px; width: 300px; background-color: rgb(179, 151, 151) ;   box-shadow: 5px 5px 6px rgb(32, 43, 192);">
           <h2>32 °C</h2>
         </div>
-          <div class="mt-3 mb-3 rounded  d-flex justify-content-center align-items-center" style="height: 80px; width: 300px; background-color: rgb(179, 151, 151); box-shadow: 5px 5px 6px rgb(32, 43, 192);">
+          <div class="mt-3 mb-3 rounded   d-flex justify-content-center align-items-center" style="height: 80px; width: 300px; background-color: rgb(179, 151, 151); box-shadow: 5px 5px 6px rgb(32, 43, 192);">
             <h1>Karachi</h1>
           </div>
       </div>
@@ -31,9 +31,9 @@ if (usercity.toLocaleLowerCase() === "karachi") {
 } else if (usercity.toLocaleLowerCase() === "lahore") {
 
 
-  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3">
+  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3 animate__animated animate__jello">
    
-    <div class="rounded mt-3 " style="background-color: rgb(226, 198, 147);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(192, 32, 32);">
+    <div class="rounded mt-3 " style="background-color: rgb(32, 31, 29);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(88, 32, 192);">
       
       <div class=" d-flex justify-content-center align-items-center flex-column">
        
@@ -56,9 +56,9 @@ if (usercity.toLocaleLowerCase() === "karachi") {
 } else if (usercity.toLocaleLowerCase() === "islamabad") {
 
 
-  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3">
+  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3 animate__animated animate__fadeInDown">
    
-    <div class="rounded mt-3 " style="background-color: rgb(226, 198, 147);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(192, 32, 32);">
+    <div class="rounded mt-3 " style="background-color: rgb(27, 27, 26);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(88, 32, 192);">
       
       <div class=" d-flex justify-content-center align-items-center flex-column">
        
@@ -78,12 +78,12 @@ if (usercity.toLocaleLowerCase() === "karachi") {
     </div>
   </div> `)
 
-} else if (usercity.toLocaleLowerCase() === "murre") {
+} else if (usercity.toLocaleLowerCase() === "murree") {
 
 
-  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3">
+  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3 animate__animated animate__fadeInBottomLeft">
      
-      <div class="rounded mt-3 " style="background-color: rgb(226, 198, 147);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(192, 32, 32);">
+      <div class="rounded mt-3 " style="background-color: rgb(17, 17, 16);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(88, 32, 192);">
         
         <div class=" d-flex justify-content-center align-items-center flex-column">
          
@@ -96,7 +96,7 @@ if (usercity.toLocaleLowerCase() === "karachi") {
             <h2>8 °C</h2>
           </div>
             <div class="mt-3 mb-3 rounded  d-flex justify-content-center align-items-center" style="height: 80px; width: 300px; background-color: rgb(179, 151, 151); box-shadow: 5px 5px 6px rgb(32, 43, 192);">
-              <h1>Murre</h1>
+              <h1>Murree</h1>
             </div>
         </div>
   
@@ -107,9 +107,9 @@ if (usercity.toLocaleLowerCase() === "karachi") {
 else if (usercity.toLocaleLowerCase() === "quetta") {
 
 
-  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3">
+  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3 animate__animated animate__backInDown">
        
-        <div class="rounded mt-3 " style="background-color: rgb(226, 198, 147);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(192, 32, 32);">
+        <div class="rounded mt-3 " style="background-color: rgb(31, 30, 29);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(88, 32, 192);">
           
           <div class=" d-flex justify-content-center align-items-center flex-column">
            
@@ -133,9 +133,9 @@ else if (usercity.toLocaleLowerCase() === "quetta") {
 else if (usercity.toLocaleLowerCase() === "peshawar") {
 
 
-  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3">
+  document.write(` <div class="container d-flex justify-content-center align-items-center mt-3 animate__animated animate__rotateIn">
          
-          <div class="rounded mt-3 " style="background-color: rgb(226, 198, 147);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(192, 32, 32);">
+          <div class="rounded mt-3 " style="background-color: rgb(22, 22, 21);  width: 40%; height: 60%; box-shadow: 5px 5px 6px rgb(88, 32, 192);">
             
             <div class=" d-flex justify-content-center align-items-center flex-column">
              
@@ -156,7 +156,7 @@ else if (usercity.toLocaleLowerCase() === "peshawar") {
         </div> `)
 
 } else {
-  document.write(`   <div class=" cir-img2   mt-5 m-auto"
+  document.write(`   <div class=" cir-img2   mt-5 m-auto animate__animated animate__zoomInDown"
                 style="width: 400px; height: 400px; background-color: blue; box-shadow: 5px 5px 6px rgb(32, 43, 192);">
                 <img src="images/else.webp" alt="">
               </div>`)
